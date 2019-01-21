@@ -19,10 +19,8 @@ TensorFlow implementation of [Generating Music Medleys via Playing Music Puzzle 
 * LibROSA 0.6.2
 * Pydub 0.22.1
 
-There are already three sample audio clips in the `data` folder. You can directly run the code.
+There are already three sample audio clips in the `data_raw` folder. You can directly run the code.
 
-    $ git clone https://github.com/remyhuang/music-puzzle-games.git
-    $ cd music-puzzle-games
     $ python main.py
    
 ## Use
