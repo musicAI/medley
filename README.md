@@ -13,7 +13,7 @@ TensorFlow implementation of [Generating Music Medleys via Playing Music Puzzle 
     }
     
 ## Environment
-* Python 3.6
+* Python 3.7
 * TensorFlow 1.2.0
 * NumPy 1.14.3
 * LibROSA 0.6.2
@@ -26,7 +26,8 @@ There are already three sample audio clips in the `data` folder. You can directl
     $ python main.py
    
 ## Use
-Replace the sample audio files (`mp3 format`) in the `data` for your own purpose.
+The sample audio files (`mp3 format`) in the `data_raw` are from the raw dataset used in paper Generating Music Medleys via Playing Music Puzzle Games
+Replace the sample audio files (`mp3 format`) in the `data_test` for your own purpose.
 (Noted: Due to using the brute-force method to find the best permutation, the total number of audio files __should not exceed 11__.)
 
 ## Output
@@ -35,5 +36,4 @@ Three default output files:
 * __output.csv__: pairwise similarities 
 * __output.mp3__: concatenated audio file of the best permutation
 
-## Contact
-Please feel free to contact [Yu-Siang Huang](https://remyhuang.github.io/) if you have any questions.
+
