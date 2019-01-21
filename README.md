@@ -27,6 +27,7 @@ There are already three sample audio clips in the `data` folder. You can directl
    
 ## Use
 The sample audio files (`mp3 format`) in the `data_raw` are from the raw dataset used in paper Generating Music Medleys via Playing Music Puzzle Games
+
 Replace the sample audio files (`mp3 format`) in the `data_test` for your own purpose.
 (Noted: Due to using the brute-force method to find the best permutation, the total number of audio files __should not exceed 11__.)
 
